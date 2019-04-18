@@ -1,0 +1,30 @@
+{
+  "name": "node_chat",
+  "version": "1.0.0",
+  "description": "聊天系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "聊天系统"
+  ],
+  "author": "ryan",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^2.0.3",
+    "connect-mongodb": "^1.1.5",
+    "connect-redis": "^3.4.1",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "koa": "^2.7.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.2.3",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0",
+    "x-data-spreadsheet": "^1.0.16"
+  }
+}
